@@ -8,16 +8,20 @@ body {
     margin: 0;
   }
   
-  .login-container {
+  .container {
     background-color: white;
-    padding: 100px 100px;
+    padding: 100px;
     border-radius: 50px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 4px 12px rgba(42, 38, 38, 0.5);
     text-align: center;
+    width: 300px;
+    max-width: 90%;
+    margin: 0 auto;
   }
   
+  
   h1 {
-    color: blue;
+    color:rgb(61, 18, 107);
     margin-bottom: 20px;
   }
   
@@ -32,14 +36,34 @@ body {
   
   button {
     padding: 10px 20px;
-    background-color: blue;
-    color: white;
+    background-color: rgb(161, 140, 183) ;
+    color: black;
     border: none;
-    border-radius: 5px;
+    border-radius: 50px;
     cursor: pointer;
   }
   
   button:hover {
-    background-color: darkblue;
+    background-color:rgb(167, 149, 169);
+  }
+  .signup {
+    margin-top: 30px;
+    display: flex;
+    justify-content: flex-start; /* moves the button to the left */
+    align-items: center;
+    gap: 140px;
   }
   
+  .signup-text {
+    color: black;
+    font-size: 16px;
+  }
+
+  
+  .h1{
+    color:rgb(61, 18, 107);
+    margin-bottom: 20px;
+  }
+  .body{
+    height: 100vh
+  }
